@@ -1,0 +1,100 @@
+#h{
+  font-family: 'Courier New';
+  font-weight: 500;
+  font-size: larger;
+  font: bold
+}
+body{
+  padding: 50px;
+  background-color: #282c34;
+ 
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.list-item{
+  list-style-type: none;
+  /* background-color: #596e8b; */
+  border:2px solid rgb(161, 158, 158);
+  color:white;
+  padding:3px;
+  padding-left: 50px;
+  border-radius: 5px; 
+  
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+  margin: 4px;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.1s;   
+}
+.card{
+  display: flex;
+ justify-content: center;
+ text-align: left;
+ box-shadow: 3px 3px 5px 5px lightblue;
+ width: 25rem;
+ margin: 15px;
+ font-family: 'Courier New';
+ font-weight: 300;
+ font-size: larger;
+}.input-box{
+  border-radius: 8px;
+  box-shadow: 5px 5px 3px grey;
+  font-family: 'Courier New';
+  font-weight: 300;
+  font-size: larger;
+}
+.container{
+  background-color: aquamarine;
+}
+.card-body{
+  background-color: rgb(243, 250, 252);
+}
+.icon{
+
+ text-align: end;
+}
+.row {margin: 0 -5px;}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
